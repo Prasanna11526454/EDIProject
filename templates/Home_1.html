@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Precision Agriculture Analytics for Crop Yield and
+      Price Forecasting</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/first.css')}}"
+    />
+  </head>
+  <body>
+
+    <div id="maincontainer">
+      <div id="contain">
+    <div id="navbar">
+      <a class="opt" href="#">Home</a>
+      <a class="opt" href="#">About</a>
+      <a class="opt" href="#">Services</a>
+      <a class="opt" href="#">Contact</a>
+    </div>
+    <div id="container">
+      <h1>Precision Agriculture Analytics for Crop Yield and
+        Price Forecasting</h1>
+      <p style="color: black">
+        Welcomes you on our website, Hope you are well from your
+        farm
+      </p>
+      <br />
+      <h3 style="color: black">Let's Start New Journey </h3>
+      <br />
+      <h2 style="color: black">
+        Click following button for Crop recommandation
+      </h2>
+    </div>
+
+    <form action="/Predict">
+      <input
+        type="submit"
+        id="Predict"
+        name="Predict"
+        action="/Predict"
+        value="Predict"
+      />
+    </form>
+  </div>
+  </div>
+  </body>
+</html>
